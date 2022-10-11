@@ -1,18 +1,18 @@
 The Client is running..
-Connect to 127.0.0.1, using port number 1031
+Connect to 127.0.0.1, using port number 2103
 Received the message from server: Please input a question for calculation
 Question: 1 + 1
-Answer: 2.0
+Answer: 2
 Do you wish to continue? (Y/N)
 Y
 Received the message from server: Please input a question for calculation
 Question: 2 - 4
-Answer: -2.0
+Answer: -2
 Do you wish to continue? (Y/N)
 Y
 Received the message from server: Please input a question for calculation
 Question: 3 * 5
-Answer: 15.0
+Answer: 15
 Do you wish to continue? (Y/N)
 Y
 Received the message from server: Please input a question for calculation

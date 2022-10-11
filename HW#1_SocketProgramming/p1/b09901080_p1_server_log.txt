@@ -1,0 +1,9 @@
+20:16:57 The Server is running..
+Question: 1 + 1
+Answer: 2
+Question: 2 - 4
+Answer: -2
+Question: 3 * 5
+Answer: 15
+Question: 4 / 2
+Answer: 2.0
