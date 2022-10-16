@@ -9,7 +9,8 @@ with open('./b09901080_p1_client_log.txt', 'w') as logFile:
     # Configure the server IP with its corrosponding port number
     # Specify the TCP connection type and make connection to the server
     # Todo start
-    HOST, PORT = '127.0.0.1', 2103
+    # HOST, PORT = '140.112.42.104', 7777  # TA's server
+    HOST, PORT = '127.0.0.1', 2103  # localhost server
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         s.connect((HOST, PORT))

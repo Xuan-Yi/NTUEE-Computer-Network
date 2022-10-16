@@ -7,6 +7,7 @@ with open('./b09901080_p1_server_log.txt', 'w') as logFile:
     # (use "127.0.0.1" for localhost on local machine)
     # Create a socket and bind the socket to the address
     # Todo start
+
     HOST, PORT = '127.0.0.1', 2103
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((HOST, PORT))
