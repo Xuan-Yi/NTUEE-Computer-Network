@@ -52,3 +52,7 @@
   2. ```python proxy_server.py``` Run **proxy_server.py**.
   3. Go to any browser and key in ```http://localhost:2104/index.html```. Be careful tat you need to access the **IP of proxy_server** but not that of web_server.
   4. If **index.html** isn't in proxy_server, proxy_server will request to web_server for **index.html** and save cache(copy of index.html) in proxy_server.
+
+## HW#2_Link-State Routing Protocol
+
+* Just implement Dijkstra algorithm. Much easier than HW#1.

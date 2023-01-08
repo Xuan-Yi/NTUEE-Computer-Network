@@ -73,11 +73,11 @@ with open('./b09901080_p1_server_log.txt', 'w') as logFile:
                         answer = ope_list[0]
                         # basic operations
                         if ope_list[1] == '+':
-                            answer += ope_list[2]
+                            answer += float(ope_list[2])
                         elif ope_list[1] == '-':
-                            answer -= ope_list[2]
+                            answer -= float(ope_list[2])
                         elif ope_list[1] == '*':
-                            answer *= ope_list[2]
+                            answer *= float(ope_list[2])
                         elif ope_list[1] == '/':
                             answer /= float(ope_list[2])
                         Client.send(
